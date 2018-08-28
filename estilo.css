@@ -1,0 +1,69 @@
+body{
+	margin : 0px;
+}
+h1 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 36px;
+	color: white;
+	font-weight: normal;
+}
+h2 {
+	font-size: 24px;
+	font-family: 'Times New Roman';
+	font-weight: normal;
+}
+h3{
+	font-size: 18px;
+	font-family: 'Times New Roman';
+	font-weight: normal;
+}
+p{
+	font-size: 14px;
+	font-family: 'Arial';
+}
+#cabecalho {
+	background-color: #6175f0;
+	padding-top: 20px;
+	padding-left: 34px;
+	padding-bottom: 13px;
+}
+#cabecalho > h2{
+	color: white;
+}
+#verdade > img{
+	float:left;
+	width: 310px;
+	padding-right: 13px;
+}
+#hoje{
+	clear: right;
+	float: right;
+	width: 405px;
+	background-color: #f8cef7;
+	border: 1px solid #ff56fb;
+	padding: 20px 35px 30px 35px;
+	text-align: center;
+}
+#hoje > img{
+	width: 112px;
+	height: 112px;
+	display: block;
+	margin: auto;
+}
+div.destacado {
+	background-color: #c4cafe;
+	clear:right;
+}
+div.destacado > p{
+	color: #004a79;
+}
+
+div.destacado > p:nth-child(2n) {
+	padding-left: 34px;
+}
+#musica p{
+	padding-left: 12px;
+}
+#musica > p:nth-child(2n+1) {
+	padding-left: 34px;
+}

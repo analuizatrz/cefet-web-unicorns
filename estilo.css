@@ -62,7 +62,7 @@ div.destacado > p:nth-child(2n) {
 	padding-left: 34px;
 }
 #musica p{
-	padding-left: 12px;
+	margin-left: 12px;
 }
 #musica > p:nth-child(2n+1) {
 	padding-left: 34px;

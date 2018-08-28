@@ -57,11 +57,10 @@ div.destacado {
 div.destacado > p{
 	color: #004a79;
 }
-
 div.destacado > p:nth-child(2n) {
 	padding-left: 34px;
 }
-#musica p{
+#musica p, #musica h2 {
 	margin-left: 12px;
 }
 #musica > p:nth-child(2n+1) {
